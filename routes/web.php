@@ -6,6 +6,7 @@ Route::get('/', function () {
     return view('portfolio');
 });
 
+
 // Blog post routes
 Route::get('/posts/building-scalable-web-applications', function () {
     return view('posts.building-scalable-web-applications');
