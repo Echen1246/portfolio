@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('portfolio');
 });
 
+Route::get('/invest', function () {
+    return view('investments');
+});
+
 
 // Blog post routes
 Route::get('/posts/building-scalable-web-applications', function () {
